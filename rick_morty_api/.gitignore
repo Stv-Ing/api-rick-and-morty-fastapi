@@ -13,5 +13,3 @@ __pycache__/
 # Configuración VSCode
 .vscode/
 
-# Configuración PyCharm
-.idea/
