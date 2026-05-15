@@ -48,7 +48,8 @@ def obtener_personajes_vivos():
             personajes_vivos.append({
                 "nombre": personaje["name"],
                 "especie": personaje["species"],
-                "estado": personaje["status"]
+                "estado": personaje["status"],
+                "imagen": personaje["image"]
             })
 
     return personajes_vivos
@@ -79,7 +80,8 @@ def obtener_personajes_humanos():
             personajes_humanos.append({
                 "nombre": personaje["name"],
                 "especie": personaje["species"],
-                "estado": personaje["status"]
+                "estado": personaje["status"],
+                "imagen": personaje["image"]
             })
 
     return personajes_humanos

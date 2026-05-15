@@ -6,6 +6,7 @@ class Personaje(BaseModel):
     nombre: str
     especie: str
     estado: str
+    imagen: str
 
 class PersonajeDetalle(BaseModel):
 

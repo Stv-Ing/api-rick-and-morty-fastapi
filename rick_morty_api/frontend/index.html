@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>API Rick and Morty</h1>
+
+        <div class="botones">
+
+            <button onclick="obtenerVivos()">
+                Personajes Vivos
+            </button>
+
+            <button onclick="obtenerHumanos()">
+                Personajes Humanos
+            </button>
+
+        </div>
+
+        <div class="busqueda">
+
+            <input
+                type="text"
+                id="nombrePersonaje"
+                placeholder="Buscar personaje">
+
+            <button onclick="buscarPersonaje()">
+                Buscar
+            </button>
+
+        </div>
+
+        <div id="resultado" class="resultado"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
